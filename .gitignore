@@ -1,0 +1,32 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backend
+backend/target/
+backend/data/
+backend/*.log
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs & backups
+*.log
+backups/
+
+# Generated bulk demo data (scripts/generate-demo-data.mjs)
+database/generated/
